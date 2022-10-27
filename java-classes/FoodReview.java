@@ -65,6 +65,18 @@ public class FoodReview
 
 
     // accessors and mutators go here
+	/**
+	@return returns the numeber of funny likes on the review
+	@param no parameter, increases number of funny likes by 1
+	*/
+	public int getNumFunnyLikes(){
+		return numFunnyLikes;
+	}
+	
+	public void setNumFunnyLikes(){
+		numFunnyLikes++;
+	}
+	
     /**
       double getReviewScore()
       accessor method for reviewScore
@@ -159,6 +171,7 @@ public class FoodReview
       return reviewBody;
     }
     
+	
     
     /**
       * void setReviewBody(String _reviewBody)
@@ -169,7 +182,23 @@ public class FoodReview
       reviewBody = _reviewBody;
     }
     
-  
-  
+  /**
+      int getUsefulLikes()
+      accessor method for numUsefulLikes
+      @return get the number of useful likes
+    */
+	
+	public int getNumUsefulLikes() {
+		return numUsefulLikes;
+	}
+  /**
+      * void setNumUsefulLikes()
+      * mutator method for numUsefulLikes
+      * @param _numUsefulLikes sets the number of useful like
+    */
+    public void setNumUsefulLikes(){
+    numUsefulLikes++;
+
+    }
 
 }

@@ -6,7 +6,7 @@ body{
   margin: 0px;
   color:#F0F8FF;
 }
-div#logo{
+div#logoContainer{
   text-align:center;
 }
 div.reviewContainer{
@@ -55,8 +55,18 @@ p{
   border-radius: 0px 0px 10px 10px; /* rounded bottom corners */
 }
 
+img {
+  max-width:150px;
+  max-height:150px;
+}
+img#logo {
+  width:300px;
+}
+
 .reviewImages {
   max-width: 200px;
   border:solid 2px #262b36;
   border-radius: 5px;
 }
+
+
