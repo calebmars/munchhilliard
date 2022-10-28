@@ -62,3 +62,11 @@ img {
 img#logo {
   width:300px;
 }
+
+.reviewImages {
+  max-width: 200px;
+  border:solid 2px #262b36;
+  border-radius: 5px;
+}
+
+
