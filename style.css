@@ -43,6 +43,7 @@ nav:hover {
 }
 nav a{
   color:#000000;
+  padding:10px;
 }
 h3{
   /* style for review stars */
