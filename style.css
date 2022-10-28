@@ -56,17 +56,19 @@ p{
 }
 
 img {
-  max-width:150px;
-  max-height:150px;
+
 }
+
 img#logo {
   width:300px;
 }
 
-.reviewImages {
-  max-width: 200px;
+.reviewImage {
+  max-width:150px;
+  max-height:150px;
   border:solid 2px #262b36;
   border-radius: 5px;
+  float: right;
 }
 
 
