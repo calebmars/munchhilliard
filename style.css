@@ -31,8 +31,19 @@ h2{
   background-color: rgba(0,0,0,0.5); /* black but 50% opacity */
   border-radius: 10px 10px 0px 0px; /* rounded top corners */
 }
-
-
+nav {
+  background-color: #7788AA;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 20px;
+  transition: 2s;
+}
+nav:hover {
+  background-color: 2px 2px 10px  #AABBDD;
+}
+nav a{
+  color:#000000;
+}
 h3{
   /* style for review stars */
   text-align:center;
